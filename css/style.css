@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    
+body {
+    text-align: center;
+    background-color: rgb(20, 20, 20);
+    color: white;
+}
+
+.key {
+    position: relative;
+    height: 100vh;
+}
+
+.a {
+    font-family: Lato;
+    font-size: 2em;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 80px;
+
+    position: absolute;
+    height: 300px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+span {
+    color: rgb(42, 6, 160);
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.89);
+    font-size: 2.5em;
+}

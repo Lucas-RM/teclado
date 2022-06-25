@@ -1,68 +1,18 @@
-<!DOCTYPE html>
- 
+<!DOCTYPE html> 
 <html lang="pt-br">
-	<head>	
-		<meta charset="utf-8"/>
-		<title>Detecta tecla pressionada</title>
-		
-		<style>
-            body {
-                margin: 0;
-                padding: 0;
-                box-sizing: border-box;
-            }
-                
-			body {
-				text-align: center;
-                background-color: rgb(20, 20, 20);
-                color: white;
-			}
-            
-            .key {
-                position: relative;
-                height: 100vh;
-            }
+<head>	
+    <meta charset="utf-8"/>
+    <title>Detecta tecla pressionada</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
 
-			.a {
-                font-family: Lato;
-                font-size: 2em;
-                font-weight: 700;
-                text-transform: uppercase;
-                line-height: 80px;
-
-                position: absolute;
-                height: 300px;
-                top: 0;
-                bottom: 0;
-                right: 0;
-                left: 0;
-                margin: auto;
-			}
- 
-			span {
-                color: rgb(42, 6, 160);
-                text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.89);
-				font-size: 2.5em;
-			}
-		</style>
-	</head>
-	
-	<body>	
-		
-		<div class="key">
-            <div class="a">Aperte alguma tecla <br></div>
-		</div>
-		
-	</body>
-	<script>	
-		
-		document.querySelector('body').addEventListener('keydown', function(event) {
- 
-			document.querySelector('.a').innerHTML = "O código da tecla pressionada é : <br> <span>" + event.keyCode + "</span>";
- 
-		});
- 
-	</script>
+<body>    
+    <div class="key">
+        <div class="a">Aperte alguma tecla <br></div>
+    </div>
+    
+    <script src="script/main.js"></script>
+</body>
 </html>
  
  
